@@ -48,7 +48,6 @@ body {
     padding: 8px 12px;
     border-radius: 3px;
     color:white;
-    text-decoration:none;
 
 }
 
@@ -87,7 +86,6 @@ body {
         top:60px;
         width:100%;
         padding:20px 0;
-        text-decoration:none;
 
         height: calc(100% - 60px);
         overflow-y: auto;
@@ -116,7 +114,9 @@ body {
 .logo img {
     height: 60px;
 }
-
+a{
+    text-decoration:none;
+}
 
 /**/
 .home {
