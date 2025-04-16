@@ -3,10 +3,10 @@
 *{
     margin:0;
     box-sizing: border-box;
-    font-family:sans-serif;
+    font-family:'Poppins',sans-serif;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 .header{
     background-color: #df5505;
@@ -21,7 +21,7 @@ body {
 .nav{
     display: flex;
     justify-content: space-between;
-
+    
     max-width: 992px;
     margin:0 auto;        
 }
@@ -47,9 +47,7 @@ body {
 .nav-menu-link{
     padding: 8px 12px;
     border-radius: 3px;
-    color:white;
-    text-decoration:none;
-
+    text-decoration: none;
 }
 
 
@@ -95,7 +93,6 @@ body {
     }
     .nav-menu-item{
         line-height: 70px;
-        text-decoration:none;
     }
         
     
@@ -116,9 +113,7 @@ body {
 .logo img {
     height: 60px;
 }
-a{
-    text-decoration:none;
-}
+
 
 /**/
 .home {
@@ -225,7 +220,6 @@ a{
 }
 .nav_link {
     transition: .3s;
-    text-decoration:none;
 }
 .nav_link:hover {
     color: #fbaf32;
