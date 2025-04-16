@@ -3,10 +3,10 @@
 *{
     margin:0;
     box-sizing: border-box;
-    font-family:'Poppins',sans-serif;
+    font-family:sans-serif;
 }
 body {
-    font-family: 'Poppins',sans-serif;
+    font-family: sans-serif;
 }
 .header{
     background-color: #df5505;
@@ -21,7 +21,7 @@ body {
 .nav{
     display: flex;
     justify-content: space-between;
-    
+
     max-width: 992px;
     margin:0 auto;        
 }
@@ -34,7 +34,7 @@ body {
     display:flex;
     margin-right: 40px;
     list-style: none;
-    color:white;
+
 }
 .nav-menu-item{
     font-size: 18px;
@@ -47,8 +47,8 @@ body {
 .nav-menu-link{
     padding: 8px 12px;
     border-radius: 3px;
-    text-decoration: none;
     color:white;
+
 }
 
 
